@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover" />
+  <meta name="theme-color" content="#08110d" />
+  <meta name="description" content="Gestão oficial dos rachas do Green Park FC" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="stylesheet" href="styles.css" />
+  <title>Green Park FC — Racha Oficial</title>
+</head>
+<body>
+  <div id="toast" class="toast" role="status"></div>
+  <div id="modal" class="modal-shell hidden" role="dialog" aria-modal="true"></div>
+  <aside class="sidebar">
+    <div class="brand"><div class="crest">GP</div><div><strong>GREEN PARK</strong><span>RACHA OFICIAL</span></div></div>
+    <nav id="nav"></nav>
+    <button class="profile" id="roleToggle"><span class="avatar">RM</span><span><strong>Rafael Martins</strong><small id="roleLabel">Jogador</small></span><b>⇄</b></button>
+  </aside>
+  <main>
+    <header><button id="menuBtn" class="icon-btn">☰</button><div><span class="eyebrow" id="today"></span><h1 id="pageTitle">Visão geral</h1></div><div class="header-actions"><button class="icon-btn" id="themeBtn">◐</button><button class="icon-btn badge" id="notifyBtn">♢<i>3</i></button></div></header>
+    <section id="app" class="content"></section>
+    <nav id="bottomNav" class="bottom-nav"></nav>
+  </main>
+  <script src="app.js"></script>
+</body>
+</html>
