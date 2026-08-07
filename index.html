@@ -7,6 +7,7 @@
   <meta name="description" content="Gestão oficial dos rachas do Green Park FC" />
   <link rel="manifest" href="manifest.webmanifest" />
   <link rel="stylesheet" href="styles.css" />
+  <style>@media(max-width:760px){#adminBtn{font-size:0;width:42px;height:40px;padding:0}#adminBtn:after{content:'ADM';font-size:10px}.header-actions{gap:5px}header h1{font-size:18px}}</style>
   <title>Green Park FC — Racha Oficial</title>
 </head>
 <body>
@@ -15,10 +16,10 @@
   <aside class="sidebar">
     <div class="brand"><div class="crest">GP</div><div><strong>GREEN PARK</strong><span>RACHA OFICIAL</span></div></div>
     <nav id="nav"></nav>
-    <button class="profile" id="roleToggle"><span class="avatar">RM</span><span><strong>Rafael Martins</strong><small id="roleLabel">Jogador</small></span><b>⇄</b></button>
+    <button class="profile" id="roleToggle"><span class="avatar">GP</span><span><strong>Presidência Green Park</strong><small id="roleLabel">Acessar administração</small></span><b>⇄</b></button>
   </aside>
   <main>
-    <header><button id="menuBtn" class="icon-btn">☰</button><div><span class="eyebrow" id="today"></span><h1 id="pageTitle">Visão geral</h1></div><div class="header-actions"><button class="icon-btn" id="themeBtn">◐</button><button class="icon-btn badge" id="notifyBtn">♢<i>3</i></button></div></header>
+    <header><button id="menuBtn" class="icon-btn">☰</button><div><span class="eyebrow" id="today"></span><h1 id="pageTitle">Visão geral</h1></div><div class="header-actions"><button class="btn" id="adminBtn">Área administrativa</button><button class="icon-btn" id="themeBtn">◐</button><button class="icon-btn badge" id="notifyBtn">♢<i>3</i></button></div></header>
     <section id="app" class="content"></section>
     <nav id="bottomNav" class="bottom-nav"></nav>
   </main>
